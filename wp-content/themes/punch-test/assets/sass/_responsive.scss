@@ -1,0 +1,39 @@
+/**
+**
+** Responsive Styles
+**
+**/
+
+/*TABLET LANDSCAPE*/
+@media (max-width: 1024px) {
+	
+}
+
+/*TABLET PORTRAIT*/
+@media (max-width: 768px) {
+	.detectDevice {
+		float: left;
+	}
+}
+
+/*IPHONE 6 < LANDSCAPE */
+@media (max-width: 667px) {
+
+}
+
+/*IPHONE 5 < LANDSCAPE */
+@media (max-width: 624px) {
+
+}
+
+/*IPHONE 6 PORTRAIT*/
+@media (max-width: 480px) {
+	.detectDevice {
+		float: right;
+	}
+}
+
+/*IPHONE 5 PORTRAIT*/
+@media (max-width: 320px) {
+	
+}
