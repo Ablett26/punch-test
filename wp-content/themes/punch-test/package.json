@@ -14,5 +14,9 @@
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "grunt-banner": "*"
+  },
+  "dependencies": {
+    "rubygems": "^1.0.3",
+    "sass": "^1.49.9"
   }
 }
