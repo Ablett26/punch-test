@@ -3,8 +3,11 @@
 
 <?php if(get_row_layout() == 'hero_carousel'):
     get_template_part('./blocks/hero-carousel');
-  ?>
 
+  ?>
+<?php elseif(get_row_layout() == 'text_cta_block'):
+    get_template_part('./blocks/text-cta');
+?>
 
 <?php endif;?>
 
