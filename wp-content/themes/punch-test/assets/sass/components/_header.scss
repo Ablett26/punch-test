@@ -1,0 +1,65 @@
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  @include media-breakpoint-up(lg) {
+    justify-content: initial;
+  }
+  &__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $red;
+    margin-right: 34px;
+    padding: 17px 32px 25px 100px;
+    @include media-breakpoint-up(md) {
+      padding: 17px 32px 25px 100px;
+    }
+    @include media-breakpoint-up(xl) {
+      padding: 17px 65px 25px 314px;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: row;
+    .header-navigation__menu {
+      flex-direction: row;
+      list-style: none;
+      display: none;
+      @include media-breakpoint-up(lg) {
+        display: flex;
+      }
+      li {
+        padding-right: 30px;
+        a {
+          font-size: 14px;
+          line-height: 24px;
+          color: $grey;
+          font-weight: 500;
+          transition: all .2s linear;
+          &:hover {
+            color: $red;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .burger-menu {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      cursor: pointer;
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+      .burger-menu__bar {
+        width: 30px;
+        height: 2px;
+        background-color: $grey;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
+    }
+  }
+}

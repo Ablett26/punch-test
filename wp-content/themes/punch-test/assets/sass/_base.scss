@@ -11,6 +11,10 @@
 html {
   width: 100%;
   min-height: 100%;
+  margin-top: 0!important;
+  @include media-breakpoint-up(lg) {
+    margin-top: 0!important;
+  }
 }
 
 body {
