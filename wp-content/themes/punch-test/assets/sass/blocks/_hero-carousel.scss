@@ -1,0 +1,121 @@
+.block-wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 845px;
+  display: flex;
+  align-items: center;
+  .hero-carousel-wrapper {
+    .hero-carousel {
+      position: relative;
+      &__content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: $white;
+        .small-title {
+          text-transform: uppercase;
+          margin-bottom: 30px;
+        }
+        .title {
+          font-style: italic;
+          margin-bottom: 30px;
+          &__red-word {
+            color: $red;
+          }
+        }
+        .sub-title {
+          text-transform: uppercase;
+          margin-bottom: 62px;
+        }
+        .text {
+          margin: 0 auto;
+          margin-bottom: 20px;
+          color: $off-white;
+          font-size: 12px;
+          margin-bottom: 62px;
+          width: 300px;
+          @include media-breakpoint-up(md) {
+            width: 430px;
+          }
+        }
+      }
+      .hero-carousel {
+        box-sizing: border-box;
+      }
+      .slick-list {
+        padding: 0px 0px!important;
+      }
+      .slick-track {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+      .slick-slide {
+        width: 100%;
+      }
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 57px;
+        list-style-type: none;
+        li {
+          margin: 0 7px;
+        }
+        button {
+          display: block;
+          width: 1rem;
+          height: 1rem;
+          padding: 0;
+          border: none;
+          border-radius: 100%;
+          background-color: $white;
+          text-indent: -9999px;
+        }
+        li.slick-active button {
+          background-color: $red;
+        }
+      }
+      .left-arrow {
+        display: none!important;
+        position: absolute;
+        color: $white;
+        font-size: 20px;
+        left: 0;
+        top: 70px;
+        cursor: pointer;
+        z-index: 10;
+        @include media-breakpoint-up(sm) {
+          font-size: 40px;
+          top: 40px;
+          display: block!important;
+        }
+        @include media-breakpoint-up(lg) {
+          left: 10%;
+          font-size: 60px;
+        }
+      }
+      .right-arrow {
+        display: none!important;
+        top: 70px;
+        color: $white;
+        position: absolute;
+        font-size: 20px;
+        right: 0;
+        cursor: pointer;
+        @include media-breakpoint-up(sm) {
+          font-size: 40px;
+          top: 40px;
+          display: block!important;
+        }
+        @include media-breakpoint-up(lg) {
+          right: 10%;
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}

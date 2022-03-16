@@ -1,0 +1,30 @@
+h1 {
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-weight: 900;
+  font-size: 40px;
+  @include media-breakpoint-up(sm) {
+    font-size: 60px;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 80px;
+  }
+}
+
+h2 {}
+
+h3 {
+  font-size: 20px;
+  letter-spacing: 6px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+h4 {}
+
+h5 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: 300;
+}
