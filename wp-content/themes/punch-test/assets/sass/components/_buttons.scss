@@ -7,8 +7,16 @@
   letter-spacing: 0px;
   line-height: 25px;
   font-weight: 600;
+  display: inline-block;
   &:hover {
     color: $red;
     text-decoration: none;
+  }
+  &--white {
+    color: $white;
+    border: 3px solid $white;
+    &:hover {
+      color: $white;
+    }
   }
 }
