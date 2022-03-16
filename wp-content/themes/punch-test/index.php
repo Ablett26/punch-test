@@ -6,10 +6,9 @@
 
 get_header(); ?>
 
+<?php if ( have_posts() ) : ?>
 
-	<?php if ( have_posts() ) : ?>
-
-		<?php
+<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
 
@@ -25,4 +24,5 @@ get_header(); ?>
 	?>
 
 <?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

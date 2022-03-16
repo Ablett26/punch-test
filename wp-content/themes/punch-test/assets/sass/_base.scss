@@ -5,79 +5,79 @@
 **/
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    width: 100%;
-    min-height: 100%;
+  width: 100%;
+  min-height: 100%;
 }
 
 body {
-    padding: 0;
-    margin: 0 auto;
-    position: relative;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-h1, h2, h3,h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {}
 
-}
-
-p {
-
-}
+p {}
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 ::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
-:-ms-input-placehold {
-}
+:-ms-input-placehold {}
 
 img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
-input, textarea {
-	background: #fff;
-	outline: none;
-	resize: none;
-} 
+input,
+textarea {
+  background: #fff;
+  outline: none;
+  resize: none;
+}
 
 input[type='text'],
 input[type='email'],
 input[type='tel'],
 textarea {
-	width: 100%;
-	display: block;
+  width: 100%;
+  display: block;
 }
 
 input,
 textarea {
-    border: none;
-	&:focus, &:hover{
-	}
+  border: none;
+  &:focus,
+  &:hover {}
 }
 
 button {
-    border: none;
-    text-align: center;
+  border: none;
+  text-align: center;
 }
-
