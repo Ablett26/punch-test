@@ -6,7 +6,7 @@
 
 
 
-<?php get_template_part( 'flexible-content');?>
+<?php get_template_part('flexible-content');?>
 
 
 <?php endwhile; endif; ?>
