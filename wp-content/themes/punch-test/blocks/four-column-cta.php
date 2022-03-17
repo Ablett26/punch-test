@@ -6,6 +6,7 @@
 
 <div class="four-column-cta">
   <p class="background-text"><?php echo $background_text;?></p>
+
   <div class="container">
 
     <div class="four-column-cta__title-wrapper">
