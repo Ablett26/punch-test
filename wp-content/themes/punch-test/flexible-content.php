@@ -8,6 +8,9 @@
 <?php elseif(get_row_layout() == 'text_cta_block'):
     get_template_part('./blocks/text-cta');
 ?>
+<?php elseif(get_row_layout() == 'four_column_cta_block'):
+    get_template_part('./blocks/four-column-cta');
+?>
 
 <?php endif;?>
 
