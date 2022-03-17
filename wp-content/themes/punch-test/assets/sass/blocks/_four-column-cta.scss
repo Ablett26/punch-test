@@ -1,8 +1,10 @@
 .four-column-cta {
   position: relative;
+  padding-bottom: 226px;
+  padding-top: 27px;
+  margin-bottom: 88px;
   .background-text {
     position: absolute;
-    top: 87%;
     font-size: 500px;
     letter-spacing: 100px;
     line-height: 25px;
@@ -11,8 +13,11 @@
     text-transform: uppercase;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
+    top: 60%;
+    left: 52%;
+    transform: translateY(-50%) translateX(-50%);
   }
   &__title-wrapper {
     margin-bottom: 141px;

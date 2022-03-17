@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
   position: relative;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  // overflow-x: initial!important;
   font-family: 'Poppins', sans-serif;
   background-color: $light-grey;
 }
