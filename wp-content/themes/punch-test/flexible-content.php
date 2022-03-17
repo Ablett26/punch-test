@@ -14,6 +14,12 @@
 <?php elseif(get_row_layout() == 'image_text_block'):
     get_template_part('./blocks/image-text');
 ?>
+<?php elseif(get_row_layout() == 'image_text_block'):
+    get_template_part('./blocks/image-text');
+?>
+<?php elseif(get_row_layout() == 'full_width_image_parallax_block'):
+    get_template_part('./blocks/full-width-image-parallax');
+?>
 
 <?php endif;?>
 

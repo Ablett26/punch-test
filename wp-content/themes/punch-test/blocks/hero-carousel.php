@@ -25,7 +25,7 @@
               <h5 class="small-title"><?php echo $small_title;?></h5>
               <h1 class="title"><?php echo $title;?> <span class="title__red-word"><?php echo $title_red_word;?></span>
               </h1>
-              <h3 class="sub-title"><?php echo $sub_title;?></h3>
+              <h4 class="sub-title"><?php echo $sub_title;?></h4>
               <p class="text"><?php echo $text;?></p>
               <a class="button" href="<?php echo $button['url'];?>"><?php echo $button['title'];?></a>
             </div>
