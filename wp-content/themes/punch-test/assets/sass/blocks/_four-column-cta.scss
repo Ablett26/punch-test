@@ -1,8 +1,10 @@
 .four-column-cta {
   position: relative;
-  padding-bottom: 226px;
   padding-top: 27px;
-  margin-bottom: 88px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 88px;
+    padding-bottom: 226px;
+  }
   .background-text {
     position: absolute;
     font-size: 500px;

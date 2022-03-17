@@ -7,10 +7,10 @@
   <div class="container-fluid">
     <div class="row image-text-block__wrapper <?php if($reverse_layout == 1):?>reverse-layout<?php endif;?>">
 
-      <div class="col-12 col-md-6 image-text-block__image" style="background-image: url('<?php echo $image['url'];?>')">
+      <div class="col-12 col-lg-6 image-text-block__image" style="background-image: url('<?php echo $image['url'];?>')">
       </div>
 
-      <div class="col-12 col-md-6 image-text-block__list">
+      <div class="col-12 col-lg-6 image-text-block__list">
         <?php if( have_rows('list') ):?>
 
         <?php while ( have_rows('list') ) : the_row();

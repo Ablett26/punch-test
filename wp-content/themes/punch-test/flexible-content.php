@@ -20,6 +20,9 @@
 <?php elseif(get_row_layout() == 'full_width_image_parallax_block'):
     get_template_part('./blocks/full-width-image-parallax');
 ?>
+<?php elseif(get_row_layout() == 'full_width_four_column_block'):
+    get_template_part('./blocks/full-width-four-column');
+?>
 
 <?php endif;?>
 

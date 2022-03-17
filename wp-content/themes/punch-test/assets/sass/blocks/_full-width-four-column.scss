@@ -1,0 +1,21 @@
+.full-width-four-column {
+  background-color: $white;
+  .col-lg-3 {
+    padding: 0;
+    .full-width-four-column__card {
+      padding: 58px 35px 64px 64px;
+      img {
+        width: 32px;
+        height: 51px;
+        margin-bottom: 30px;
+      }
+      &-content {
+        color: $white;
+        h6 {
+          margin-bottom: 36px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
