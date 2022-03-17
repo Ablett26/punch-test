@@ -11,7 +11,7 @@
 
     <div class="four-column-cta__title-wrapper">
       <h2><?php echo $title;?></h2>
-      <h3><?php echo $sub_title;?></h3>
+      <h4><?php echo $sub_title;?></h4>
     </div>
 
     <div class="row">
