@@ -22,9 +22,17 @@
   &--light-grey {
     color: $light-grey;
     border: 3px solid $light-grey;
+    &:hover {
+      color: $red;
+      border: 3px solid $red;
+    }
   }
-  &:hover {
-    color: $red;
-    border: 3px solid $red;
+  &--light-grey-alt {
+    color: #999999;
+    border: 3px solid $light-grey;
+    &:hover {
+      color: $red;
+      border: 3px solid $red;
+    }
   }
 }
