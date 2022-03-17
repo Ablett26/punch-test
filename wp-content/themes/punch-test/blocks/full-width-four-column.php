@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <div class="full-width-four-column">
 
   <div class="container-fluid">
