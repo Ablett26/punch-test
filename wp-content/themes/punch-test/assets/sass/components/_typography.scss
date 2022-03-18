@@ -4,9 +4,9 @@ h1 {
   font-weight: 900;
   font-size: 40px;
   @include media-breakpoint-up(sm) {
-    font-size: 60px;
+    font-size: 50px;
   }
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     font-size: 80px;
   }
 }

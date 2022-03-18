@@ -14,8 +14,42 @@
 
 
 
+
+
     //CODE TO GO IN HERE FOR THE WEBSITE
     console.log('hello from misc.js');
+
+    const cardLogo = $('.js-image');
+
+    $(cardLogo).css('opacity', 0);
+    $(cardLogo).waypoint(function() {
+      $(cardLogo).addClass('fadeInDown');
+      $(cardLogo).css('opacity', 1);
+      console.log('hello')
+    }, { offset: '70%' });
+
+    const listContent = $('.image-text-block__list-content');
+
+    $(listContent).css('opacity', 0);
+
+
+    function staggerAnimation(item) {
+      for (let index = 0; index < item.length; index++) {
+        const element = item[index];
+        setTimeout(function() {
+          $(element).addClass('fadeInLeft');
+          $(element).css('opacity', 1);
+
+        }, 500 * index);
+      }
+    };
+
+
+    $(listContent).waypoint(function() {
+      staggerAnimation(listContent);
+    }, { offset: '70%' });
+
+
 
     $('.hero-carousel').slick({
       infinite: true,
@@ -32,7 +66,10 @@
     // Adds colour to current menu items title when child is hovered
     $('.menu-item > a').hover((e) => {
       $(e.currentTarget).parent().parent().parent().children().toggleClass('highlight');
-    })
+    });
+
+
+
 
   });
 

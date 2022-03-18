@@ -8,15 +8,18 @@
   line-height: 25px;
   font-weight: 600;
   display: inline-block;
+  transition: all .2s linear;
   &:hover {
-    color: $red;
+    color: $white;
+    border: 3px solid $white;
     text-decoration: none;
   }
   &--white {
     color: $white;
     border: 3px solid $white;
     &:hover {
-      color: $white;
+      color: $black-alt;
+      border: 3px solid $black-alt;
     }
   }
   &--light-grey {

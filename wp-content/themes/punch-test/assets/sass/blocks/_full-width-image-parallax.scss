@@ -21,6 +21,7 @@
     height: 100%;
   }
   &__content {
+    text-align: center;
     position: relative;
     z-index: 20;
     display: flex;
@@ -30,6 +31,9 @@
     height: 100%;
     top: 50%;
     transform: translateY(-50%);
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
     h6 {
       color: #f3f3f3;
       letter-spacing: 3px;

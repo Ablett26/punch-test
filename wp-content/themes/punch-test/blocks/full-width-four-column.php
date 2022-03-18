@@ -13,7 +13,7 @@
         ?>
       <div class="col-lg-3">
         <div class="full-width-four-column__card" style="background-color: <?php echo $background_colour;?>">
-          <img src="<?php echo $card_icon['url'];?>" alt="<?php echo $card_icon['title'];?>">
+          <img class="js-image" src="<?php echo $card_icon['url'];?>" alt="<?php echo $card_icon['title'];?>">
           <div class="full-width-four-column__card-content">
             <h6><?php echo $card_title;?></h6>
             <p><?php echo $card_text;?></p>
